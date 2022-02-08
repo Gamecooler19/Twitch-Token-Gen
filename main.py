@@ -73,7 +73,7 @@ class Main:
             return json.load(f)
 
     def __init__(self):
-        self.SetTitle('[LOOT AIO Twitch Token Checker]')
+        self.SetTitle('[Twitch Token Checker]')
         self.clear()
 
         self.title = Style.BRIGHT+Fore.MAGENTA+"""
